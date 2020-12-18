@@ -51,7 +51,46 @@ li a {
   position: relative;
   top: 12px;
 }
-.logo {
+main {
   text-align: center;
+}
+.main-logo {
   padding-top: 109px;
+}
+.main-search {
+  margin-top: 28px;
+}
+.main-search form {
+  width: 528px;
+  margin: 0 auto;
+}
+.main-search_container {
+  display: flex;
+  width: 100%;
+  height: 44px;
+  align-items: center;
+}
+.main-search_lupa {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-search_buscar {
+  height: 100%;
+  flex: 1;
+}
+.main-search_buscar input {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+}
+.main-search_audio {
+  height: 100%;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -5px;
+  margin-right: 7px;
 }
